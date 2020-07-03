@@ -17,10 +17,10 @@
   "author": "Cruz Molina",
   "license": "MIT",
   "dependencies": {
+    "at-least-node": "^1.0.0",
     "configstore": "^5.0.1",
     "detect-installed": "^2.0.4",
     "find-up": "^4.1.0",
-    "fs-extra": "^9.0.0",
     "get-installed-path": "^4.0.8",
     "glob": "^7.1.6",
     "js-sha3": "^0.8.0",
