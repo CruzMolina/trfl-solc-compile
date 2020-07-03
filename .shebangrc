@@ -1,0 +1,8 @@
+[
+  {
+    "interpreter": "node",
+    "files": [
+      "./bin/trfl-solc-compile.js"
+    ]
+  }
+]
