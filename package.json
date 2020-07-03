@@ -1,6 +1,6 @@
 {
   "name": "@trfl/solc-compile",
-  "version": "0.1.2",
+  "version": "0.1.3-0",
   "description": "A lightweight solc build tool",
   "bin": "./dist/trfl-solc-compile.js",
   "scripts": {
