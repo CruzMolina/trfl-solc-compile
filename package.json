@@ -2,8 +2,9 @@
   "name": "@trfl/solc-compile",
   "version": "0.1.2",
   "description": "A lightweight solc build tool",
-  "bin": "./bin/trfl-solc-compile.js",
+  "bin": "./dist/trfl-solc-compile.js",
   "scripts": {
+    "build": "parcel build bin/trfl-solc-compile.js --target node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -34,5 +35,8 @@
     "require-from-string": "^2.0.2",
     "semver": "^7.3.2",
     "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }
